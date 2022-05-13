@@ -1,0 +1,11 @@
+name: example-environment
+channels:
+-defaults
+dependencies:
+- python=3.10.2
+- pandas
+- numpy 
+- ipywidgets
+- seaborn
+- plotly
+- bqplot==0.12.30
